@@ -91,7 +91,7 @@ Claude Code must be running on the host machine during the demo.
 
 ### Branch structure:
 ```
-main
+master
 ├── feature/weather-skill
 ├── feature/todo-skill
 ├── feature/web-search-skill
@@ -99,3 +99,35 @@ main
 ├── feature/reminder-skill
 └── feature/file-summarizer-skill
 ```
+
+### Worktree parallel development:
+Weather and todo skills were developed simultaneously using git worktrees:
+```bash
+git worktree add ../bot-weather feature/weather-skill
+git worktree add ../bot-todo feature/todo-skill
+# work on both in parallel, then commit independently
+```
+
+---
+
+## Screenshots
+
+### Weather
+![Weather example](screenshots/weather.png)
+
+### Todo
+![Todo example](screenshots/todo.png)
+
+### Web Search
+![Web search example](screenshots/web-search.png)
+
+### Joke / Quote
+![Joke example](screenshots/joke-quote.png)
+
+### Reminder
+![Reminder example](screenshots/reminder.png)
+
+### File Summarizer
+![File summarizer example](screenshots/file-summarizer.png)
+
+> Add your own screenshots by saving Discord conversation images to the `screenshots/` folder with the names above.
