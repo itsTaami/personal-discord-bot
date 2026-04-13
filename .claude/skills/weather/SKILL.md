@@ -47,3 +47,4 @@ Forecast: [one-line summary if available]
 - If no city is given, ask: "Which city would you like the weather for?"
 - If the user asks for Fahrenheit, convert and display both units
 - If wind direction is unavailable, omit it rather than guessing
+- If the user asks about "today" or "now", emphasize current conditions over forecast
