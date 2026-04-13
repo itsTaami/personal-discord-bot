@@ -62,3 +62,4 @@ Each line is one task in the format:
 - If a task is not found for complete/remove, say so and show the current list
 - Keep task descriptions exactly as the user wrote them
 - When user references a task by number, match it to the numbered list shown in the last view
+- If the user says "what should I do first?", suggest the top high-priority incomplete task
